@@ -1,0 +1,50 @@
+logo: Pho
+title: Pho
+description: > # this means to ignore newlines until "baseurl:"
+  Just photo.
+permalink: ':title/'
+baseurl: "/pho" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Banner settings
+video: mountains.mp4 # add banner video. Add your video file to the folder video
+banner-title: Enjoy Life
+banner-desc: ”希望这些美好的东西，能够留住哪怕那么一瞬。“
+
+# Author settings
+author-pic: face.png # your photo
+author-name: 不白nowhitestar
+about-author: 喜欢美好的东西，并追求，乐此不疲
+email: uni.mysnow@gmail.com # your email
+phone:  # your pnone number
+website: https://bubais.top # you website
+
+# Social link
+google_url:    # add url link
+twitter_url:   # add url link 
+instagram_url: # add url link
+pinterest_url: # add url link
+dribbble_url:  # add url link
+facebook_url:  # add url link
+
+# Disqus
+discus_identifier: bubais # add your discus identifier
+
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
